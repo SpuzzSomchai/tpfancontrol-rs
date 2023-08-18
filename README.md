@@ -6,7 +6,7 @@ tpfancontrol-rs is a Linux TUI clone of troubadix's TPFanControl. It uses the sy
 - To install from the Github repository directly, run:
 
 	```sh
-	cargo install --git 'https://github.com/Arnavion/tpfancontrol-rs'
+	cargo install --git 'https://github.com/SpuzzSomchai/tpfancontrol-rs'
 	```
 
 	This will compile the `tpfancontrol` binary and put it in `~/.cargo/bin/`
@@ -67,7 +67,7 @@ tpfancontrol-rs is a Linux TUI clone of troubadix's TPFanControl. It uses the sy
 
 	This means you have sensors numbered 1, 2, 3, and so on. Add them to the config file so `tpfancontrol` can monitor them. The names for the sensors are completely arbitrary and only used for display purposes, so you can name them whatever you like.
 
-	(Note: It looks like some Thinkpads don't report any temperature sensors via the `thinkpad_acpi` module. See [this issue](https://github.com/Arnavion/tpfancontrol-rs/issues/3) for discussion.)
+	(Note: It looks like some Thinkpads don't report any temperature sensors via the `thinkpad_acpi` module. See [this issue](https://github.com/SpuzzSomchai/tpfancontrol-rs/issues/3) for discussion.)
 
 1. Run the `tpfancontrol` binary that you compiled above.
 
